@@ -1,0 +1,32 @@
+.info h3 {
+    color: hsl(26, 100%, 55%);
+  }
+  .info h1 {
+    font-size: 3rem;
+  }
+  .info p {
+    color: grey;
+    font-size: 1.2rem;
+  }
+  .info h4 {
+    color: grey;
+    text-decoration: line-through;
+  }
+  #discount {
+    border: 1px solid transparent;
+    border-radius: 1em;
+    padding: 2px;
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    font-size: 0.6rem;
+    position: relative;
+    bottom: 8px;
+    left: 8px;
+  }
+
+  @media (max-width:576px){
+    .info{
+      display: flex;
+      align-self: center;
+    }
+  }
